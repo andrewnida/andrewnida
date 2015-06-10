@@ -1,0 +1,36 @@
+{
+  "name": "boilerplate",
+  "version": "0.0.0",
+  "description": "boilerplate for javascript projects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewnida/boilerplate"
+  },
+  "keywords": [
+    "javascript",
+    "html5",
+    "css3",
+    "boilerplate"
+  ],
+  "author": "Andrew Nida",
+  "homepage": "https://github.com/andrewnida/boilerplate",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-connect": "^0.8.0",
+    "grunt-contrib-jade": "^0.12.0",
+    "grunt-contrib-compass": "^0.9.1",
+    "grunt-contrib-requirejs": "^0.4.4",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.5.0",
+    "requirejs": "^2.1.14",
+    "almond": "^0.2.9"
+  },
+  "dependencies": {
+    "crossroads": "^0.12.0",
+    "signals": "^1.0.0",
+    "hasher": "^1.2.0"
+  }
+}

@@ -1,0 +1,15 @@
+doctype html
+html(lang="en-us")
+    head
+        title= title
+        link( rel='stylesheet', href='#{staticUrl}stylesheets/style.css')
+    body
+        h5= test
+    if env === 'production'
+        script( type="text/javascript", src="#{staticUrl}javascripts/main-min.js" )
+    else
+        script(
+    		type="text/javascript",
+    		data-main="#{staticUrl}javascripts/main",
+    		src="#{staticUrl}javascripts/vendor/require.js"
+    	)
